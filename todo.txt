@@ -1,0 +1,5 @@
+- menu en orange + barre
+- recadrer image fond + gérer petit écran
+- opacité sur côté gauche pour logo/ titre
+- insérer logo
+- footer / contact + bg en blanc
