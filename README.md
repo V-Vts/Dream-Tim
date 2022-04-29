@@ -3,10 +3,7 @@ Website of Dream-Tim association made by Agent VV
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 # Goals
-This website presents the association and aims to share the adventure of tim
-
-
-
+This website presents the association and aims at sharing the adventure of tim
 
 
 # Credits:
