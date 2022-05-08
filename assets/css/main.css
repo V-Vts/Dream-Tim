@@ -114,13 +114,12 @@ input, select, textarea {
 
 	body {
 		background-color: white;
-		background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)), url("../../img/couche-soleil-bis.jpg");
+		background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)), url("../../img/bg-accueil.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
  fixed;
-		background-position: center,
- center;
+		background-position: center bottom;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3443,7 +3442,7 @@ ul.menu {
 		background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), url("../../img/couche-soleil-bis.jpg"));
 		background-size: auto,cover;
 		background-position: center, center;
-		height: 80vh;
+		height: 90vh;
 	}
 
 		#banner .inner {

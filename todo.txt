@@ -3,3 +3,28 @@
 - opacité sur côté gauche pour logo/ titre
 - insérer logo
 - footer / contact + bg en blanc
+
+
+1) publier le site pour que tim donne contenu
+2) navbar experience
+3) ajouter mail
+
+menu :
+- le projet -> page + travaillée avec explication + photos
+
+- équipe + remerciement -> page générique avec liste de l'équipe (photo + rôle)
+- partenaires -> page générique avec logo partenaire + description + liens
+
+- association PP -> page générique avec explications
+
+- rencontres écoles -> page générique avec photos + explication
+
+- réseaux -> une sorte de menu avec juste des liens vers les réseaux (ajouter mails)
+- ils parlent de nous  -> page avec des cartes des journaux/médias qui en parle -> en cliquant dessus rédirigé
+
+- suivre l'aventure (info départ)(idée  frise chronologique)
+page générale + des articles/rubrique par pays/événement/mois etc ...
+tomber sur le dernier article facilement ou rechercher les anciens
+- parcours -> page avec photo + description
+
+- faire un don -> juste bouton
