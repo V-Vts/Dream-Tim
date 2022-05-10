@@ -4429,7 +4429,7 @@ ul.menu {
 	  }
 
 	  .navbar-links ul li.dropdown li {
-		display: block
+		display: block;
 	  }
 
 	  .navbar-links ul li {
