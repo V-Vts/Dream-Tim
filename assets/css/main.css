@@ -114,7 +114,7 @@ input, select, textarea {
 
 	body {
 		background-color: white;
-		background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)), url("../../img/bg-accueil.jpg");
+		background-image: linear-gradient(to top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0)), url("../../img/tim-route.jpg");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -221,7 +221,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #ffffff;
 		}
 
 		a.special:not(.button) {
@@ -3439,7 +3439,7 @@ ul.menu {
 /* Banner */
 
 	#banner {
-		background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), url("../../img/couche-soleil-bis.jpg"));
+		background-image: none; /*linear-gradient(to top, rgba(0, 0, 255, 0), rgba(255, 255, 255, 0), url("../../img/couche-soleil-bis.jpg"));*/
 		background-size: auto,cover;
 		background-position: center, center;
 		height: 90vh;
@@ -3450,7 +3450,7 @@ ul.menu {
 			height: 120%;
 			width: 60vw;
 			padding: 10vh 5%;
-			background-color: rgba(255,255,255,0);
+			/*background-color: rgba(255,255,255,0);*/
 			clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
 		}
 
@@ -3539,8 +3539,7 @@ ul.menu {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 0)), url("../../images/bg.jpg");
+				background-image: none;/*linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 0)), url("../../img/tim-route.jpg");*/
 				background-size: auto,cover;
 				background-position: center,center;
 				margin-bottom: -6.5em;
@@ -3650,7 +3649,7 @@ ul.menu {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-image: none;/*linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../img/couche-soleil.jpg");*/
 			background-size: auto,
  cover;
 			background-position: center,
@@ -4183,7 +4182,7 @@ ul.menu {
 			line-height: 2.8em;
 			text-align: center;
 			border: 0;
-			box-shadow: inset 0 0 0 1px #ffffff;
+			box-shadow: inset 0 0 0 2px #ffffff;
 			border-radius: 100%;
 			color: #ffffff;
 		}
@@ -4220,7 +4219,7 @@ ul.menu {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0), url("../../img/couche-soleil.jpg"));
+			background-image: none;/*linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), url("../../img/couche-soleil.jpg"));*/
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
@@ -4302,3 +4301,152 @@ ul.menu {
 		}*/
 
 	}
+
+	/* navbar */
+	.navbar {
+		background-color: var(--blanc-fg);
+		width: 100vw;
+		padding: 0 5vw;
+		position: fixed;
+		display: flex;
+		justify-content: space-between;
+		z-index:1;
+	  }
+	  
+	  .navbar-logo img {
+		padding-top: 5px;
+		height: 60px;
+	  }
+	  
+	  .navbar-links ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+	  }
+	  
+	  .navbar-links ul li {
+		margin-left: 5vw;
+		/*définir hauteur navbar*/
+		height: 70px;
+		/*rendre li a::before dépendant de li*/
+		position: relative;
+		/*positionnement boutons*/
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	  }
+	  
+	  .navbar-links ul li a {
+		color: var(--darkblue);
+		font-weight: 900;
+		font-size: 1.2rem;
+		text-decoration: none;
+		text-transform: uppercase;
+		/*positionnement animation*/
+		display: flex;
+		justify-content: center;
+	  }
+	  
+	  .navbar-links ul li a:hover {
+		color: var(--darkblue);
+	  }
+	  
+	  .navbar-links ul li a::before {
+		content: '';
+		background-color: var(--darkblue);
+		height: 6px;
+		/*positionnement par rapport à li*/
+		position: absolute;
+		bottom: 0;
+		/*animation*/
+		width: 0%;
+		transition: all ease-in-out 250ms;
+	  }
+	  
+	  .navbar-links ul li a:hover::before {
+		width: 100%;
+	  }
+	  
+	  .toggle-button {
+		width: 36px;
+		height: 30px;
+		/*positionnement par rapport à navbar*/
+		position: absolute;
+		top: 15px;
+		right: 5vw;
+		/*non affiché par défaut*/
+		display: none;
+		flex-direction: column;
+		justify-content: space-between;
+	  }
+	  
+	  .toggle-button .bar {
+		height: 15%;
+		width: 100%;
+		background-color: var(--darkblue);
+		border-radius: 10px;
+	  }
+	  
+	  @media (max-width: 900px) {
+		  .navbar {
+			  flex-direction: column;
+			  align-items: flex-start;
+		  }
+	  
+		  .toggle-button {
+			  display: flex;
+		  }
+	  
+		  .navbar-links {
+			  display: none;
+			  width: 100%;
+		  }
+	  
+		  .navbar-links ul {
+			  width: 100%;
+			  flex-direction: column;
+		  }
+	  
+		  .navbar-links ul li {
+			  text-align: center;
+			  margin: auto;
+		  }
+	  
+		  .navbar-links.active {
+			  display: flex;
+		  }
+	  }
+	  
+	  .dropdown > li a.dropbtn, .dropdown:hover .dropbtn {
+		background-color: #f1f1f1;
+	  }
+	  
+	  .navbar-links ul li.dropdown {
+		display: flex;
+		text-align: center;
+	  }
+	  
+	  .dropdown-content {
+		display: none;
+		position: absolute;
+		top: 70px;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	  }
+	  
+	  .dropdown-content a {
+		color: black;
+		padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+	  }
+	  
+	  .dropdown-content a:hover {background-color: #f1f1f1;}
+	  
+	  .dropdown:hover .dropdown-content {
+		display: block;
+	  }
