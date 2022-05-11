@@ -1,4 +1,5 @@
 to-do :
+- pages génériques -> image de fond trop petite
 - changer les lorem ipsum en ce que j'attends
 - remplir pages sponsors
 - polices
@@ -8,7 +9,8 @@ plus tard:
 - navbar en hamburger
 - chargement pages
 - taille images
-- vérifier accessibilité sur téléphone
+- vérifier accessibilité sur téléphone en particulier navbar et hover
+- petit symbole pour inviter à scroller
 
 menu :
 - le projet -> page + travaillée avec explication + photos
