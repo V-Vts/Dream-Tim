@@ -5,12 +5,20 @@ to-do :
 - polices
 
 plus tard:
+- logo tim en svg
 - publier nouvelle version et montrer à Achille
 - navbar en hamburger
 - chargement pages
 - taille images
 - vérifier accessibilité sur téléphone en particulier navbar et hover
 - petit symbole pour inviter à scroller
+
+bug :
+- navbar en hamburger
+- hamburger mal placé en téléphone
+- taille des images
+- background en téléphone
+
 
 menu :
 - le projet -> page + travaillée avec explication + photos
