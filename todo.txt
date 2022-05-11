@@ -1,12 +1,14 @@
-menu en orange ? bof
+to-do :
+- changer les lorem ipsum en ce que j'attends
+- remplir pages sponsors
+- polices
 
-1) publier le site pour que tim donne contenu
-2) navbar experience
-3) chargement page
-4) taille images
-5) redirection et liens
-6) autres pages
-7) police
+plus tard:
+- publier nouvelle version et montrer à Achille
+- navbar en hamburger
+- chargement pages
+- taille images
+- vérifier accessibilité sur téléphone
 
 menu :
 - le projet -> page + travaillée avec explication + photos

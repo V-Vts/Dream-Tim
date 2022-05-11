@@ -3644,11 +3644,14 @@ ul.menu {
 			text-transform: uppercase;
 		}
 
+		.wrapper.generic, .wrapper.generic h2, .wrapper.generic h3, .wrapper.generic a {
+			color: var(--darkblue);
+		}
+
 	@media screen and (max-width: 1280px) {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
 			background-image: none;/*linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../img/couche-soleil.jpg");*/
 			background-size: auto,
  cover;
