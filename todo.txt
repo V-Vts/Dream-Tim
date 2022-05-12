@@ -12,6 +12,9 @@ plus tard:
 - taille images
 - vérifier accessibilité sur téléphone en particulier navbar et hover
 - petit symbole pour inviter à scroller
+- rond autour du logo pour mieux le voir ?
+- clean code
+- vérifier compatibilité avec inspecter
 
 bug :
 - navbar en hamburger
