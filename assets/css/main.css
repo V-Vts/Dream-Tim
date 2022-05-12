@@ -114,7 +114,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: var(--blue);
+		background-color: var(--blanc-bg);
 		/*background-image: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("../../img/route-horizon.jpg");*/
 		background-size: auto,
  cover;
@@ -3445,6 +3445,10 @@ ul.menu {
 		background-position: center, center;
 		height: 90vh;
 		margin-bottom: -6.5em;
+	}
+
+	#page-wrapper {
+		padding-top: 70px;
 	}
 
 		#banner .inner {
