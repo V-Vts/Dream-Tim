@@ -1,7 +1,22 @@
+- page générique -> flèche vers le bas ?
+- faire staff comme partenaires
+- faire aventurier -> faire des sections + images
+- association Petit Princes
+
+
 to-do :
-- pages génériques -> image de fond trop petite
-- changer les lorem ipsum en ce que j'attends
-- remplir pages sponsors
+- titre sur image
+- dreamTim + logo par dessus image fond
+- changer image de fond pour mettre un titre pour les autres pages cf site template
+
+voir avec Tim :
+- tjr mettre une image de fond ?
+- lui demander de m'envoyer les photos du staff en mode polaroide et faire même page que pour sponsors
+  -> image de fond l'quipe de la DreamTim
+
+
+- paragraphe aventure humaine
+- speed run page Petits Princes avec leur site (notre mission) et un rêve et tout commence
 - polices
 
 plus tard:
@@ -17,10 +32,6 @@ plus tard:
 - vérifier compatibilité avec inspecter
 
 bug :
-- navbar en hamburger
-- hamburger mal placé en téléphone
-- taille des images
-- background en téléphone
 
 
 menu :

@@ -146,9 +146,69 @@
 
 
 // navbar
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 
 toggleButton.addEventListener('click', () => {
   navbarLinks.classList.toggle('active')
 })
+
+const dropdown = document.querySelectorAll(".dropdown");
+const dropdownContent = document.querySelectorAll(".dropdown-content");
+console.log(dropdown)
+console.log(dropdownContent)
+
+for(let i=0; i<dropdown.length; i++){
+	dropdown[i].addEventListener("click",function(){
+		for(let j=0; j<dropdown.length; j++){
+			if(i!=j){
+				dropdownContent[j].classList.remove('active');
+			}
+		}
+		dropdownContent[i].classList.toggle('active');
+	})
+	dropdown[i].addEventListener("mouseover", function() {
+		for(let j=0; j<dropdown.length; j++){
+			if(i!=j){
+				dropdownContent[j].classList.remove('active');
+			}
+		}
+	})
+}
+
+// hides the menu if we click away
+// (window.click(function() {
+// 	for(let j=0; j<dropdown.length; j++){
+// 		dropdownContent[j].classList.remove('active');
+// 	}
+//   });
+
+
+$(document).click(function(event) { 
+	var target = event.target;
+	console.log(target);
+	console.log(target.closest('.dropdown'));
+	if(target.closest('.shown') == null) {
+		console.log('test');
+		for(let j=0; j<dropdown.length; j++){
+			dropdownContent[j].classList.remove('active');
+		}
+	}        
+  });
+
+  // compte à rebours
+  var deadline = new Date("Jul 5, 2022 12:00:00").getTime();
+  var x = setInterval(function() {
+  var now = new Date().getTime();
+  var t = deadline - now;
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+  var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((t % (1000 * 60)) / 1000);
+  document.getElementById("decompte").innerHTML = days + " jours " 
+  + hours + " h " + minutes + " m " + seconds + " s ";
+	  if (t < 0) {
+		  clearInterval(x);
+		  document.getElementById("decompte").innerHTML = "EXPIRED";
+	  }
+  }, 1000);
