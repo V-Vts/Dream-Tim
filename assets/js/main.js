@@ -167,13 +167,17 @@ for(let i=0; i<dropdown.length; i++){
 		}
 		dropdownContent[i].classList.toggle('active');
 	})
-	dropdown[i].addEventListener("mouseover", function() {
-		for(let j=0; j<dropdown.length; j++){
-			if(i!=j){
-				dropdownContent[j].classList.remove('active');
+
+	var windowWidth = window.innerWidth;
+	if(windowWidth > 1280) {
+		dropdown[i].addEventListener("mouseover", function() {
+			for(let j=0; j<dropdown.length; j++){
+				if(i!=j){
+					dropdownContent[j].classList.remove('active');
+				}
 			}
-		}
-	})
+		})
+	}
 }
 
 // hides the menu if we click away

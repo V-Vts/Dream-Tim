@@ -4441,15 +4441,23 @@ ul.menu {
 		/*positionnement animation*/
 		display: flex;
 		justify-content: center;
-		margin: 10px 0;
 		cursor: pointer;
+	  }
+
+	  .navbar-links ul li.dropdown > a {
+		margin: 10px 0;
+	  }
+
+	  .navbar-links ul li.dropdown ul {
+		margin: 0;
 	  }
 
 	  .navbar-links ul li a.don {
 		background-color: var(--orange);
 		color: var(--blanc-fg);
 		border-radius: 10px;
-		padding: 3px 10px;		
+		padding: 3px 10px;
+		margin: 7px 0;		
 	  }
 
 	  .navbar-links ul li a.don:hover {
@@ -4471,7 +4479,7 @@ ul.menu {
 		height: 6px;
 		/*positionnement par rapport à li*/
 		position: absolute;
-		bottom: 0;
+		bottom: -0.5px;
 		/*animation*/
 		width: 0%;
 		transition: all ease-in-out 250ms;
@@ -4575,7 +4583,7 @@ ul.menu {
 	  .dropdown-content {
 		display: none;
 		position: absolute;
-		top: 70px;
+		top: 70.5px;
 		background-color: rgb(240, 240, 240);
 		min-width: 160px;
 		padding: 0;
@@ -4591,10 +4599,16 @@ ul.menu {
 		text-align: left;
 	  }
 	  
-	  .dropdown-content a:hover {background-color: #f1f1f1;}
+	  .dropdown-content a:hover {background-color: #e5e5e5;}
 	  
-	  .dropdown:hover .dropdown-content, .dropdown-content.active {
+	  .dropdown-content.active {
 		display: block;
+	  }
+
+	  @media (min-width: 1280px) {
+		.dropdown:hover .dropdown-content {
+			display: block;
+		  }
 	  }
 
 	  @media (max-width: 1280px) {
@@ -4635,6 +4649,10 @@ ul.menu {
 
 		.dropdown-content {
 			position: static;
+		}
+
+		.navbar-links ul.shown li.dropdown > a:hover {
+			color: #041633;
 		}
 
 		.navbar-links ul.shown li a::after {
