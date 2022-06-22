@@ -1,3 +1,9 @@
+- mettre en ligne
+- slider plus petit pour les écoles
+- écrire derrière sponsors
+- écrire derrière staff
+
+
 - ajouter swiper APP
 - corriger bugs netlify
 - intégrer vidéo présentation itinéraire

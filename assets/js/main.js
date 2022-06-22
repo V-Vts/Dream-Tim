@@ -167,7 +167,7 @@ class MyNavbar extends HTMLElement {
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
 						<a class="dropbtn">Le projet</a>
 						<ul class="dropdown-content">
-							<li><a href="/presentation.html">Présentation</a></li>
+							<li><a href="/index.html">Présentation</a></li>
 							<li><a href="/aventurier.html">L'aventurier</a></li>
 							<li><a href="/itineraire.html">L'itinéraire</a></li>
 							<li><a href="/association.html">L'association</a></li>
