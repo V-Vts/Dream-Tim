@@ -1,0 +1,11 @@
+.juicer-feed .j-paginate {
+	border: 2px solid var(--darkblue);
+}
+
+.juicer-feed .j-paginate:hover {
+    background-color: var(--darkblue);
+}
+
+.juicer-feed {
+    margin-top: 5vw !important;
+}

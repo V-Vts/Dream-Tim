@@ -1,55 +1,32 @@
-- page générique -> flèche vers le bas ?
-- faire staff comme partenaires
-- faire aventurier -> faire des sections + images
-- association Petit Princes
+- ajouter swiper APP
+- corriger bugs netlify
+- intégrer vidéo présentation itinéraire
+- pages les rêveurs avec quelques reves + image
+- ajouter dessins dans page école
 
+plus tard :
+- polaroïde qui se retournent
+- pages par sponsors ?
+
+
+09/06/2022:
+- navbar hover en mode hamurger à désactiver
+- max-width: 1680px titre de page pas visible selon taille écran
+- navbar trop grosse (texte) donc hamburger trop rapide
+- photo de fond -> vélo coupé
 
 to-do :
 - titre sur image
 - dreamTim + logo par dessus image fond
 - changer image de fond pour mettre un titre pour les autres pages cf site template
-
-voir avec Tim :
-- tjr mettre une image de fond ?
-- lui demander de m'envoyer les photos du staff en mode polaroide et faire même page que pour sponsors
-  -> image de fond l'quipe de la DreamTim
-
-
-- paragraphe aventure humaine
-- speed run page Petits Princes avec leur site (notre mission) et un rêve et tout commence
-- polices
+- polices cf Achille
 
 plus tard:
 - logo tim en svg
 - publier nouvelle version et montrer à Achille
-- navbar en hamburger
 - chargement pages
 - taille images
 - vérifier accessibilité sur téléphone en particulier navbar et hover
 - petit symbole pour inviter à scroller
 - rond autour du logo pour mieux le voir ?
 - clean code
-- vérifier compatibilité avec inspecter
-
-bug :
-
-
-menu :
-- le projet -> page + travaillée avec explication + photos
-
-- équipe + remerciement -> page générique avec liste de l'équipe (photo + rôle)
-- partenaires -> page générique avec logo partenaire + description + liens
-
-- association PP -> page générique avec explications
-
-- rencontres écoles -> page générique avec photos + explication
-
-- réseaux -> une sorte de menu avec juste des liens vers les réseaux (ajouter mails)
-- ils parlent de nous  -> page avec des cartes des journaux/médias qui en parle -> en cliquant dessus rédirigé
-
-- suivre l'aventure (info départ)(idée  frise chronologique)
-page générale + des articles/rubrique par pays/événement/mois etc ...
-tomber sur le dernier article facilement ou rechercher les anciens
-- parcours -> page avec photo + description
-
-- faire un don -> juste bouton

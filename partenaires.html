@@ -19,59 +19,7 @@
 
 	<body class="is-preload">
 		<!-- Navbar -->
-		<nav class="navbar">
-			<a class="navbar-logo" href="#page-wrapper">
-				<img src="img/velo-logo.png" alt="Logo_DreamTim" class="logo">
-				<img src="img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
-			</a>
-			<a href="#" class="toggle-button">
-			<span class="bar"></span>
-			<span class="bar"></span>
-			<span class="bar"></span>
-			</a>
-			<div class="navbar-links">
-				<ul class="shown">
-					<li class="dropdown">
-						<!-- <i class="fa fa-angle-down" style="cursor: pointer;" onclick="location.href='/generic.html';"></i> -->
-						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a class="dropbtn">Le projet</a>
-						<ul class="dropdown-content">
-							<li><a href="/index.html">Présentation</a></li>
-							<li><a href="/a-venir.html">L'aventurier</a></li>
-							<li><a href="/a-venir.html">L'itinéraire</a></li>
-							<li><a href="/a-venir.html">L'association</a></li>
-							<li><a href="/a-venir.html">Les écoles</a></li>
-							<li><a href="/staff.html">Le staff</a></li>
-						</ul>							
-				  	</li>
-					<li class="dropdown">
-						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a class="dropbtn">Actualités</a>
-						<ul class="dropdown-content">
-							<li><a href="/suiviGPS.html">Suivi GPS</a></li>
-						</ul>							
-				  	</li>
-					<li class="dropdown">
-						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a class="dropbtn">Rêves</a>
-						<ul class="dropdown-content">
-							<li><a href="/a-venir.html">+</a></li>
-							<li><a href="/a-venir.html">100 et 1</a></li>
-						</ul>							
-				  	</li>
-					  <li class="dropdown">
-						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a class="dropbtn">A propos</a>
-						<ul class="dropdown-content">
-							<li><a href="/partenaires.html">Partenaires</a></li>
-							<li><a href="/presse.html">Presse</a></li>
-							<li><a href="/a-venir.html">Contacts</a></li>
-						</ul>							
-				  	</li>
-					<li><a class="don" href="https://www.petitsprinces.com/">Faire un don</a></li>
-				</ul>
-			</div>
-		</nav>
+		<my-navbar></my-navbar>
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 				<!-- Banner -->
@@ -102,43 +50,68 @@
 									<section class="partenaires">
 										<ul>
 											<li>
-												<a href="https://www.univ-lille.fr/" class="image">
-													<img src="/img/ULille.svg" alt="" />
+												<a href="https://www.univ-lille.fr/" target="_blank" class="image">
+													<img src="/img/sponsor_ULille.svg" alt="" />
 												</a>
 											</li>
 											<li>
-												<a href="https://www.pagesjaunes.fr/pros/53573359" class="image">
-													<img src="/img/solutions-confort-habitat.png" alt="" />
+												<a href="https://www.pagesjaunes.fr/pros/53573359" target="_blank" class="image">
+													<img src="/img/sponsor_solutions_confort_habitat.png" alt="" />
 												</a>
 											</li>
 											<li>
-												<a href="https://www.respire.co/" class="image">
-													<img src="/img/respire.svg" alt="" />
+												<a href="https://www.respire.co/" target="_blank" class="image">
+													<img src="/img/sponsor_respire.svg" alt="" />
 												</a>
 											</li>
 											<li>
-												<a href="https://mistertee.fr/" class="image">
-													<img src="/img/mistertee.svg" alt="" />
+												<a href="https://mistertee.fr/" target="_blank" class="image">
+													<img src="/img/sponsor_mistertee.svg" alt="" />
 												</a>
 											</li>
 											<li>
-												<a href="https://www.ville-hem.fr/" class="image">
-													<img src="/img/hem.png" alt="" />
+												<a href="https://www.ville-hem.fr/" target="_blank" class="image">
+													<img src="/img/sponsor_hem.png" alt="" />
 												</a>
 											</li>
 																						<li>
-												<a href="https://www.gobyava.com/" class="image">
-													<img src="/img/GObyAVA.png" alt="" />
+												<a href="https://www.gobyava.com/" target="_blank" class="image">
+													<img src="/img/sponsor_GObyAVA.png" alt="" />
 												</a>
 											</li>
 											<li>
-												<a href="https://www.credit-agricole.fr/" class="image">
-													<img src="/img/credit-agricole.png" alt="" />
+												<a href="https://www.credit-agricole.fr/" target="_blank" class="image">
+													<img src="/img/sponsor_credit-agricole.png" alt="" />
 												</a>
 											</li>
 											<li>
-												<a href="https://www.corep.fr/" class="image">
-													<img src="/img/corep.png" alt="" />
+												<a href="https://www.corep.fr/" target="_blank" class="image">
+													<img src="/img/sponsor_corep.png" alt="" />
+												</a>
+											</li>
+											<li>
+												<a href="https://www.iadfrance.fr/conseiller-immobilier/jonathan.thevenoud" target="_blank" class="image">
+													<img src="/img/sponsor_thevenoud.png" alt="" />
+												</a>
+											</li>
+											<li>
+												<a href="https://www.autourdubureau.com/" target="_blank" class="image">
+													<img src="/img/sponsor_autourdubureau.png" alt="" />
+												</a>
+											</li>
+											<li>
+												<a href="http://lions-bondues.org/" target="_blank" class="image">
+													<img src="/img/sponsor_lions_club.png" alt="" />
+												</a>
+											</li>
+											<li>
+												<a href="https://www.lesmiraculeux.com/" target="_blank" class="image">
+													<img src="/img/sponsor_les_miraculeux.webp" alt="" />
+												</a>
+											</li>
+											<li>
+												<a href="https://www.lissac.fr/" target="_blank" class="image">
+													<img src="/img/sponsor_lissac.jpg" alt="" />
 												</a>
 											</li>
 										</ul>
@@ -150,21 +123,7 @@
 					</section>
 
 				<!-- Footer -->
-					<section id="footer" class="wrapper style7">
-						<ul class="icons">
-							<li><a href="https://www.youtube.com/channel/UChdjiYkner2JQWavSM1i-3A" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
-							<li><a href="https://www.instagram.com/dreamtim___/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://www.facebook.com/DREAM-TIM-101018092510498" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.linkedin.com/company/dreamtimm/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:contact.dreamtim@gmail.com" class="icon solid fa-envelope"><span class="label">Mail</span></a></li>
-						</ul>
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="https://www.linkedin.com/in/vianney-vouters/">Vianney Vts</a></li>
-							</ul>
-						</div>
-					</section>
-
+				<my-footer></my-footer>
 			</div>
 
 		<!-- Scripts -->
