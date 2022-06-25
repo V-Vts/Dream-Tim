@@ -2549,7 +2549,7 @@ ul.menu {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0px;
 		}
 
 		ul.alt {
@@ -3448,7 +3448,7 @@ ul.menu {
 		background-size: auto,cover;
 		background-position: center, center;
 		height: 90vh;
-		margin-bottom: -6.5em;
+		margin-bottom: -4em;
 	}
 
 	#banner.banner-presentation {
@@ -3468,12 +3468,12 @@ ul.menu {
 	}
 
 	#page-wrapper {
-		padding-top: 70px;
+		padding-top: 55px;
 	}
 
 		#banner .inner {
 			margin: 0;	
-			padding: 10vh 5%;
+			padding: 4em 0 6em 0;
 			/* clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%); */
 			text-align: center;
 		}
@@ -3580,7 +3580,7 @@ ul.menu {
 				padding: 7em 0 8.25em 0 ;
 				background-size: auto,cover;
 				background-position: center,center;
-				margin-bottom: -6.5em;
+				margin-bottom: -4em;
 			}
 
 			#banner.banner-generic {
@@ -3593,7 +3593,7 @@ ul.menu {
 
 			#banner {
 				padding: 12em 3em 12.375em 3em ;
-				margin-bottom: -4.75em;
+				margin-bottom: -3em;
 			}
 
 
@@ -4078,19 +4078,19 @@ ul.menu {
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				margin: 4.75em 0;
+				margin: 3em 0;
 			}
 
 				.wrapper:before, .wrapper:after {
-					height: 4.75em;
+					height: 3em;
 				}
 
 				.wrapper:before {
-					top: -4.75em;
+					top: -3em;
 				}
 
 				.wrapper:after {
-					bottom: -4.75em;
+					bottom: -3em;
 					left: 0;
 				}
 
@@ -4398,16 +4398,17 @@ ul.menu {
 
 	  .navbar-logo {
 		  margin-left: 5vw;
+		  height: 55px;
 	  }
 	  
 	  .navbar-logo img.logo {
-		padding-top: 5px;
-		height: 60px;
+		margin: 1px 0 4px 0;
+		height: 50px;
 	  }
 
 	  .navbar-logo img.text-logo {
-		margin: 0 0 10px 35px;
-		height: 30px;
+		margin: 8px 0 12px 35px;
+		height: 35px;
 	  }
 
 	  .navbar-links {
@@ -4425,7 +4426,7 @@ ul.menu {
 		margin-left: 5vw;
 		padding: 0;
 		/*définir hauteur navbar*/
-		height: 70px;
+		height: 55px;
 		/*rendre li a::before dépendant de li*/
 		position: relative;
 		/*positionnement boutons*/
@@ -4500,7 +4501,7 @@ ul.menu {
 		height: 30px;
 		/*positionnement par rapport à navbar*/
 		position: absolute;
-		top: 21px;
+		top: 13px;
 		right: 5vw;
 		/*non affiché par défaut*/
 		display: none;
@@ -4585,7 +4586,7 @@ ul.menu {
 	  .dropdown-content {
 		display: none;
 		position: absolute;
-		top: 71px;
+		top: 55px;
 		background-color: rgb(240, 240, 240);
 		min-width: 160px;
 		padding: 0;
@@ -4607,13 +4608,14 @@ ul.menu {
 		display: block;
 	  }
 
-	  @media (min-width: 1280px) {
+	  @media (min-width: 1190px) {
 		.dropdown:hover .dropdown-content {
 			display: block;
+			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.4);
 		  }
 	  }
 
-	  @media (max-width: 1280px) {
+	  @media (max-width: 1190px) {
 		.navbar {
 			flex-direction: column;
 			align-items: flex-start;
@@ -4662,6 +4664,12 @@ ul.menu {
 		}
 	}
 
+	@media (max-width: 400px) {
+		.navbar-logo img.text-logo {
+			margin-left: 0;
+		  }
+	} 
+
 	/* partenaires */
 	.partenaires ul {
 		display: flex;
@@ -4677,18 +4685,18 @@ ul.menu {
 		margin-bottom: 5.2%;
 		list-style: none;
 		background-color: white;
+		box-shadow: 0 0 3px 0 rgba(0,0,0,0.30);
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
 	}
 
-	
-
 	.partenaires ul li:hover {
-		box-shadow: 0 0 5px 0 rgba(0,0,0,0.20);
+		box-shadow: 0 0 5px 0 rgba(0,0,0,0.50);
 	}
 
 	.partenaires ul li a {
+		height: 100%;
 		width: 100%;
 		display: flex;
 		align-items: center;
@@ -4729,6 +4737,7 @@ ul.menu {
 		list-style: none;
 		background-color: #f5f6fa;
 		padding: 0;
+		box-shadow: 0 0 3px 0 rgba(0,0,0,0.30);
 	}
 
 	.staff ul li img {
@@ -4750,23 +4759,30 @@ ul.menu {
 		}
 	}
 
-	/* Bandeau */
-	.bandeau {
+	@media screen and (max-width: 480px) {
+		.staff ul li {
+			width: 100%;
+			margin-bottom: 10%;
+		}
+	}
+
+	/* Bandeau APP*/
+	.bandeau-APP {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
 	}
 
-	.bandeau .text-bandeau {
+	.bandeau-APP .text-bandeau {
 		width: 58%;
 	}
 
-	.bandeau .img-bandeau {
+	.bandeau-APP .img-bandeau {
 		width: 38%;
 	}
 
-	.bandeau .img-bandeau img {
+	.bandeau-APP .img-bandeau img {
 		width: 100%;
 	}
 
@@ -4775,25 +4791,24 @@ ul.menu {
 		text-underline-offset: 3px;
 	}
 
-	.bandeau a.special::before {
+	.bandeau-APP a.special::before {
 		border: solid 2px var(--darkblue);
 	}
 
 	@media (max-width: 980px) {
-		.bandeau {
+		.bandeau-APP {
 			flex-direction: column;
 		}
 
-		.bandeau .text-bandeau {
+		.bandeau-APP .text-bandeau {
 			width: 100%;
 		}
 	
-		.bandeau .img-bandeau {
+		.bandeau-APP .img-bandeau {
 			width: 60%;
 			margin-top: 5vw;
 		}
 	}
-
 
 	/* .bandeau {
 		display: flex;
@@ -4827,32 +4842,44 @@ ul.menu {
 	} */
 
 	/* contacts */
+	#contacts {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-	#contact ul {
-		height: 80vw;
+
+	#contacts div img {
+		width: 25vw;
+		margin-top: 17vw;
+	}
+
+	#contacts ul {
+		height: 50vw;
 		margin-top: 5vw;
 		margin-bottom: 10vw;
-		padding-left: 25vw;
+		padding-left: 2vw;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 	}
+	
 
-	#contact li {
+	#contacts li {
 		margin-right: auto;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
 	}
 
-	#contact li a {
+	#contacts li a {
 		transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 		-moz-transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 		-webkit-transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 		-ms-transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 	}
 
-	#contact li a.icon {
+	#contacts li a.icon {
 		margin-right: 10vw;
 		width: 8vw;
 		height: 8vw;
@@ -4864,7 +4891,7 @@ ul.menu {
 		color: var(--blue);
 	}
 
-	#contact li:hover a {
+	#contacts li:hover a {
 		transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 		-moz-transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 		-webkit-transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -4872,7 +4899,7 @@ ul.menu {
 		color: var(--orange);
 	}
 
-	#contact li:hover a.icon {
+	#contacts li:hover a.icon {
 		transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 		-moz-transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 		-webkit-transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -4883,37 +4910,57 @@ ul.menu {
 
 	@media screen and (max-width: 736px) {
 
-		#contact ul {
-			height: 70vh;
+		#contacts {
+			flex-direction: column;
+		}
+	
+		#contacts div {
+			width: 40vw;
+			margin-left: 7vw;
+			align-self: center;
 		}
 
-		#contact li a.icon {
+		#contacts div img {
+			width: 100%;
+			margin-top: 0vw;
+		}
+
+		#contacts ul {
+			height: 50vh;
+		}
+
+		#contacts li a.icon {
 			width: 70px;
 			height: 70px;
 			line-height: 73px;
 			font-size: 35px;
 		}
 
-		#contact ul {
+		#contacts ul {
 			padding-left: 10vw;
 		}
 
-		#contact li:hover a.icon {
+		#contacts li:hover a.icon {
 			box-shadow: inset 0 0 0 2px var(--orange);
 		}
 
-		#contact li a.icon {
+		#contacts li a.icon {
 			box-shadow: inset 0 0 0 2px var(--blue);
 		}
 
 	}
 	
-	img.itineraire {
+	img.itineraire-map {
 		width: 100%;
+		margin-bottom: 4vw;
 		border: solid;
 		border-radius: 50px;
 		border-width: 10px;
 		border-color: var(--lightblue);
+	}
+
+	.itineraire iframe {
+		width: 100%;
 	}
 
 /* swiper */
@@ -4924,19 +4971,19 @@ ul.menu {
   }
   
   .swiper .content {
-	height: 46vw; /*calc(82vw * 9 / 16);*/
-	width: 82vw;
-	margin: 0 9vw;
+	height: calc(50vw * 9 / 16);
+	width: 50vw;
+	margin: 0 25vw;
   }
 
   .swiper .content.with-description {
-	height: 50vw; /*calc(82vw * 9 / 16);*/
+	height: calc(50vw * 9 / 16);
 	text-align: center;
   }
 
   .swiper .slide {
 	position: absolute;
-	width: 82%;
+	width: 50%;
 	height: 100%;
   }
 
@@ -4977,11 +5024,11 @@ ul.menu {
   }
   
   .swiper .swiper-actions button.swiper-button-prev {
-    margin-left: 3vw;
+    margin-left: 10vw;
   }
   
   .swiper .swiper-actions button.swiper-button-next {
-    margin-right: 3vw;
+    margin-right: 10vw;
   }
   
   @keyframes appearing {
@@ -5051,3 +5098,161 @@ ul.menu {
 	text-transform: uppercase;
 	width: 150px;
   }
+
+/* reve */
+.reve {
+	margin-top: 8vw;
+}
+
+.reve ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.reve ul li {
+	width: 29%;
+	margin-bottom: 6.5%;
+	list-style: none;
+	background-color: #f5f6fa;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.20);
+	padding: 15px;
+}
+
+.reve ul li:hover {
+	box-shadow: 0 0 5px 0 rgba(0,0,0,0.50);
+}
+
+.reve ul li img {
+	width: 100%;
+}
+
+.reve ul li p {
+	text-align:center;
+	margin: 0;
+}
+
+@media (max-width: 1280px) {
+	.reve ul li {
+		width: 45%;
+		margin-bottom: 10%;
+	}
+}
+
+@media (max-width: 736px) {
+	.reve ul li {
+		width: 45%;
+		margin-bottom: 10%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.reve ul li {
+		width: 100%;
+		margin-bottom: 10%;
+	}
+}
+
+	/* bandeau ecoles */
+
+.bandeau-ecoles {
+	display: flex;
+	justify-content: space-between;
+	padding: 5vw;
+}
+
+.bandeau-ecoles.dessins {
+	background-color: var(--blanc-fg);
+	flex-direction: row;
+}
+
+.bandeau-ecoles.travaux {
+	background-color: var(--lightblue);
+	flex-direction: row-reverse;
+}
+
+.bandeau-ecoles .explications {
+	width: 47%
+}
+
+.bandeau-ecoles .swiper {
+	margin: 0;
+	width: 47%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* .bandeau-ecoles .swiper .swiper-actions button {
+	background-color: var(--blanc-bg);
+	color: var(--blue) !important;
+} */
+
+.bandeau-ecoles .swiper .content {
+	width: 60%;
+	height: auto;
+	aspect-ratio: 1/1;
+	margin: 0;
+}
+
+.bandeau-ecoles .swiper .content .slide {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.bandeau-ecoles .swiper .content .slide img {
+	border-radius: 10%;
+	border: 4px solid black;
+}
+
+.bandeau-ecoles .swiper .swiper-actions button.swiper-button-prev {
+	margin-left: 5%;
+}
+  
+.bandeau-ecoles .swiper .swiper-actions button.swiper-button-next {
+	margin-right: 5%;
+}
+
+@media (max-width: 736px) {
+	.bandeau-ecoles {
+		flex-direction: column;
+	}
+
+	.bandeau-ecoles .explications {
+		width: 100%;
+		margin-top: 5vw;
+	}
+	
+	.bandeau-ecoles .swiper {
+		width: 100%;
+	}
+}
+
+/* aventurier */
+
+#aventurier p {
+	line-height: 2.7rem;
+	font-weight: normal;
+}
+
+#aventurier span {
+	text-decoration: underline;
+	font-weight: bold;
+	margin-right: 1vw;
+}
+
+#aventurier img {
+	width: 30vw;
+	margin: 0 3vw 1vw 0;
+	float: left;
+}
+
+@media (max-width: 736px) {
+	#aventurier img {
+		width: 80vw;
+		margin: 0 5vw 7vw 5vw;
+	}
+}

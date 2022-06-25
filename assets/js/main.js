@@ -184,11 +184,7 @@ class MyNavbar extends HTMLElement {
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a class="dropbtn">Rêves</a>
-						<ul class="dropdown-content">
-							<li><a href="/reveurs.html">Les rêveurs</a></li>
-							<li><a href="/1000et1.html">1000 et 1</a></li>
-						</ul>							
+						<a href="/reves.html" class="dropbtn">Rêves</a>							
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->

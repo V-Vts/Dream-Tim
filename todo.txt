@@ -1,14 +1,19 @@
+- demander à Chloé si elle a fait le montage et demander pour écoles etc
 - mettre en ligne
-- slider plus petit pour les écoles
+- image écoles dans présentation coupé en format rond
+- suivi GPS à tester
+- dreamtim et logo sur image presentation
+- voir pour la navbar et les textes sous les titres de page pour une fois que c'est en ligne
 - écrire derrière sponsors
-- écrire derrière staff
+- écrire derrière staff + ombre
+- aventurier en mode carte identité
+- sliders automatiques ? ou on peut aller à la slide qu'on veut ? intégrer 
 
+- demander à Tim pour quand il veut le site et le préparer en retirant ce qui n'est pas encore rempi et qui le sera plus tard
+- demander si on garde reveurs ou si ca fait doublons car on peut mettre dans association ou à la limite dans 1000 et 1
 
-- ajouter swiper APP
 - corriger bugs netlify
 - intégrer vidéo présentation itinéraire
-- pages les rêveurs avec quelques reves + image
-- ajouter dessins dans page école
 
 plus tard :
 - polaroïde qui se retournent

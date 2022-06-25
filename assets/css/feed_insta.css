@@ -9,3 +9,29 @@
 .juicer-feed {
     margin-top: 5vw !important;
 }
+
+.j-post-overlay.juicer-feed a.juicer-button {
+    border: 2px solid var(--darkblue);
+}  
+
+.j-post-overlay.juicer-feed a.juicer-button:hover {
+    background: var(--darkblue);
+    color: #fff;
+}
+
+.juicer-feed .is-not-youTube a:hover{
+    color: #fff !important;
+}
+
+.j-post-overlay.juicer-feed ul.j-share a::before {
+color: var(--darkblue);
+}
+
+.juicer-feed .is-not-youTube .j-meta a{
+    color: white !important;
+}
+
+.juicer-feed.night li.feed-item {
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.40);
+}
+  
