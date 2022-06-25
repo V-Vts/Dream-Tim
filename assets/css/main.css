@@ -3587,6 +3587,10 @@ ul.menu {
 				height: 45vh;
 			}
 
+			#banner.banner-generic.APP {
+				height: 50vh;
+			}
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3612,6 +3616,10 @@ ul.menu {
 
 			#banner.banner-generic {
 				height: 40vh;
+			}
+
+			#banner.banner-generic.APP {
+				height: 50vh;
 			}
 
 				#banner .logo {
@@ -4731,13 +4739,20 @@ ul.menu {
 		padding: 0;
 	}
 	
-	.staff ul li {
+	/* .staff ul li {
 		width: 29%;
 		margin-bottom: 6.5%;
 		list-style: none;
 		background-color: #f5f6fa;
 		padding: 0;
 		box-shadow: 0 0 3px 0 rgba(0,0,0,0.30);
+	} */
+
+	.staff ul li {
+		width: 29%;
+		margin-bottom: 6.5%;
+		list-style: none;
+		padding: 0;
 	}
 
 	.staff ul li img {
@@ -5256,3 +5271,51 @@ ul.menu {
 		margin: 0 5vw 7vw 5vw;
 	}
 }
+
+/* flipping cards */
+
+/* .middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+  } */
+
+  .card{
+	cursor: pointer;
+	width: 100%;
+	aspect-ratio: 12/14;
+	position: relative;
+  }
+
+  .front,.back{
+	width: 100%;
+	aspect-ratio: 12/14;
+	background-color: #f5f6fa;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.30);
+	overflow: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	transition: transform 0.6s linear;
+  }
+  .front{
+	transform: perspective(600px) rotateY(0deg);
+  }
+  .back{
+	background: #f5f6fa;
+	transform: perspective(600px) rotateY(180deg);
+	padding: 10%;
+  }
+  .back-content{
+	color: #2c3e50;
+	text-align: center;
+	width: 100%;
+  }
+  
+  .card:hover > .front{
+	transform: perspective(600px) rotateY(-180deg);
+  }
+  .card:hover > .back{
+	transform: perspective(600px) rotateY(0deg);
+  }
+  
