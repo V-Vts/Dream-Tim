@@ -184,7 +184,10 @@ class MyNavbar extends HTMLElement {
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a href="/reves.html" class="dropbtn">Rêves</a>							
+						<a href="/reves.html" class="dropbtn">Rêves</a>
+						<ul class="dropdown-content">
+							<li></li>
+						</ul>						
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
@@ -352,6 +355,7 @@ document.addEventListener('click',function (event) {
 			moveToNextSlide(swiperNb);
 		}
 	}
+	console.log(event.target);
 }, false);
 
 
