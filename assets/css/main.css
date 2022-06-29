@@ -4290,7 +4290,7 @@ ul.menu {
 			position: relative;
 			margin: 0;
 			text-align: center;
-			padding: 6em 0 6em 0;
+			padding: 4em 0 3em 0;
 			box-shadow: inset 0 1px 0 0 var(--blue);
 		}
 
@@ -4315,7 +4315,7 @@ ul.menu {
 			background-size: auto, cover;
 			background-position: center, center;
 			margin-top: -6.5em;
-			padding-top: 6.5em;
+			padding-top: 4em;
 		}
 
 	}
@@ -4689,7 +4689,7 @@ ul.menu {
 	.partenaires ul li {
 		width: 21%;
 		aspect-ratio: 1 / 1;
-		padding: 1%;
+		padding: 3%;
 		margin-bottom: 5.2%;
 		list-style: none;
 		background-color: white;
@@ -4712,6 +4712,7 @@ ul.menu {
 	}
 
 	.partenaires ul li img {
+		width: 100%;
 		max-width: 100%;
 		max-height: 100%;
 	}
@@ -4730,6 +4731,137 @@ ul.menu {
 			margin-bottom: 10%;
 		}
 	}
+
+	/* Bandeau partenaires*/
+	.bandeau-partenaires {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 10vw;
+	}
+
+	.bandeau-partenaires .text-bandeau {
+		width: 58%;
+	}
+
+	.bandeau-partenaires .text-bandeau h2 {
+		padding: 0;
+	}
+
+	.bandeau-partenaires .text-bandeau p {
+		font-weight: bold;
+	}
+
+	.bandeau-partenaires .img-bandeau {
+		width: 38%;
+		aspect-ratio: 1 / 1;
+		padding: 3%;
+		background-color: white;
+		box-shadow: 0 0 3px 0 rgba(0,0,0,0.30);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.bandeau-partenaires .img-bandeau:hover {
+		box-shadow: 0 0 5px 0 rgba(0,0,0,0.50);
+	}
+
+	.bandeau-partenaires .img-bandeau img {
+		width: 100%;
+	}
+
+	.lien {
+		text-decoration: underline;
+		text-underline-offset: 3px;
+	}
+
+	.bandeau-partenaires a.special::before {
+		border: solid 2px var(--darkblue);
+	}
+
+	@media (max-width: 980px) {
+		.bandeau-partenaires {
+			flex-direction: column;
+		}
+
+		.bandeau-partenaires .text-bandeau {
+			width: 100%;
+		}
+	
+		.bandeau-partenaires .img-bandeau {
+			width: 60%;
+			margin: 7vw 0 7vw 0;
+		}
+	}
+
+	.partenaires-nav {
+		margin-top: 5vw;
+	}
+
+	.partenaires-nav a {
+		border: solid 2px var(--darkblue);
+		border-radius: 10px;
+		line-height: 50px;
+		padding: 0 12px;
+	}
+
+	.partenaires-nav a:hover {
+		background-color: var(--darkblue);
+		color: white;
+	}
+
+	.partenaires-nav .neighbors a {
+		width: 120px;
+		text-align: center;
+		z-index: 10;
+	}
+
+	.partenaires-nav #previous::before {
+		font-family: 'Font Awesome 5 Free';
+		content: '\f104';
+		margin-right: 10px;
+	}
+
+	.partenaires-nav #next::after {
+		font-family: 'Font Awesome 5 Free';
+		content: '\f105';
+		margin-left: 10px;
+	}
+
+	.partenaires-nav .neighbors {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.partenaires-nav .home {
+		margin-top: 5vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	@media (min-width: 650px) {
+		.partenaires-nav .home {
+			position: relative;
+			top: calc(0px - 55px - 5vw);
+		}
+	}
+
+	@media (min-width: 1280px) {
+		.partenaires-nav .neighbors a {
+			width: 140px;
+		}
+	}
+
+	@media screen and (min-width: 1680px) {
+		.partenaires-nav .neighbors a {
+			width: 180px;
+		}
+	}
+
 
 	/* staff */
 	.staff ul {
@@ -5178,12 +5310,12 @@ ul.menu {
 }
 
 .bandeau-ecoles.dessins {
-	background-color: var(--blanc-fg);
+	/* background-color: var(--blanc-fg); */
 	flex-direction: row;
 }
 
 .bandeau-ecoles.travaux {
-	background-color: var(--lightblue);
+	/* background-color: var(--lightblue); */
 	flex-direction: row-reverse;
 }
 

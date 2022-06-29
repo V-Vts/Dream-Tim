@@ -152,8 +152,8 @@ class MyNavbar extends HTMLElement {
 		`
 		<nav class="navbar">
 			<a class="navbar-logo" href="/presentation.html">
-				<img src="img/velo-logo.png" alt="Logo_DreamTim" class="logo">
-				<img src="img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
+				<img src="/img/velo-logo.png" alt="Logo_DreamTim" class="logo">
+				<img src="/img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
 			</a>
 			<a style="cursor: pointer;" class="toggle-button">
 			<span class="bar"></span>
@@ -254,6 +254,7 @@ for(let i=0; i<dropdown.length; i++){
 	})
 
 	var windowWidth = window.innerWidth;
+	console.log(windowWidth,'window width');
 	if(windowWidth > 1280) {
 		dropdown[i].addEventListener("mouseover", function() {
 			for(let j=0; j<dropdown.length; j++){
@@ -402,3 +403,33 @@ document.addEventListener('click',function (event) {
 //   }
 
 //   updateSlidePosition();
+
+
+// navigation partenaires
+var listePartenaires = [
+	"autour-du-bureau.html",
+	"corep.html",
+	"credit-agricole.html",
+	"GObyAVA.html",
+	"Hem.html",
+	"Jonathan-Thevenoud.html",
+	"les-miraculeux.html",
+	"lions-clubs.html",
+	"lissac-opticien.html",
+	"mistertee.html",
+	"respire.html",
+	"SCH.html",
+	"ULille.html",
+];
+var nbPartenaires = listePartenaires.length;
+console.log(listePartenaires);
+
+var pagePartenaire = location.pathname.split("/").slice(-2,-1);
+if (pagePartenaire == "partenaires"){
+	partenaire = location.pathname.split("/").slice(-1)[0];
+	index = listePartenaires.indexOf(partenaire);
+	previous = listePartenaires[(index-1+nbPartenaires) % nbPartenaires];
+	next = listePartenaires[(index+1+nbPartenaires) % nbPartenaires];
+	document.getElementById("previous").setAttribute("href", "/partenaires/"+previous);
+	document.getElementById("next").setAttribute("href", "/partenaires/"+next);
+}

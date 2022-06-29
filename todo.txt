@@ -1,5 +1,3 @@
-- en mode téléphone, navbar pas accessible !!!!
-
 - rediscuter des pages reveurs
 - demander à Chloé si elle a fait le montage et demander pour écoles etc
 - mettre en ligne
