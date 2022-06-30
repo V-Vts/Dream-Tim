@@ -1,3 +1,17 @@
+- probleme avec safari regarder pour compatibilités de navigateurs
+    - staff -> overflow ? aspect-ratio ?
+    - partenaires
+    - titre des pages
+    - contacts
+    - corriger slider écoles
+    - gros blanc dans presse
+- facture OVH
+- vérifier la bannière sur les différents formats
+- ajouter les partenaires
+- mettre en ligne
+- changer police
+
+
 - rediscuter des pages reveurs
 - demander à Chloé si elle a fait le montage et demander pour écoles etc
 - mettre en ligne
