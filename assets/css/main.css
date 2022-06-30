@@ -3098,6 +3098,10 @@ ul.menu {
 					width: 100%;
 				}
 
+				.features article .image iframe {
+					height: calc(40vw* 314 / 560);
+				}
+
 		@media screen and (max-width: 980px) {
 
 			.features article {
@@ -3107,7 +3111,7 @@ ul.menu {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			.features article {
 				padding: 1.5em 1.5em 0.1em 1.5em ;
@@ -3122,9 +3126,9 @@ ul.menu {
 					width: calc(100% + 3em);
 				}
 
-		}
+		} */
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 736px) {
 
 			.features {
 				display: block;
@@ -3133,6 +3137,10 @@ ul.menu {
 				.features article {
 					width: 100%;
 					margin: 0 0 2em 0 !important;
+				}
+
+				.features article .image iframe {
+					height: calc(80vw* 314 / 560);
 				}
 
 		}
@@ -3585,6 +3593,18 @@ ul.menu {
 			color: var(--blanc-fg);
 		}
 
+		#banner h2.APP span {
+			font-size: 1em;
+		}
+
+		#banner h2.APP br {
+			display: none;
+		}
+
+		#banner p.APP br {
+			display: none;
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			#banner {
@@ -3598,16 +3618,16 @@ ul.menu {
 				height: 45vh;
 			}
 
-			#banner.banner-generic.APP {
-				height: 50vh;
-			}
-
 		}
 
 		@media screen and (max-width: 980px) {
 			#banner {
 				padding: 12em 3em 12.375em 3em ;
 				margin-bottom: -3em;
+			}
+
+			#banner h2.APP {
+				font-size: 3em;
 			}
 		}
 
@@ -3626,6 +3646,15 @@ ul.menu {
 				height: 50vh;
 			}
 
+			#banner h2.APP br {
+				display: block;
+			}
+
+			#banner h2.APP span {
+				display: none;
+			}
+	
+
 				#banner .logo {
 					margin: 0 0 1em 0;
 				}
@@ -3642,6 +3671,21 @@ ul.menu {
 					font-size: 1.2em;
 				}
 
+		}
+
+		@media screen and (max-width: 480px) {
+			
+			#banner h2.APP {
+				font-size: 2.5em;
+			}
+			
+			#banner p.APP br {
+				display: block;
+			}	
+
+			#banner p.APP span {
+				display: none;
+			}
 		}
 
 		body.is-preload #banner .logo {
@@ -5131,7 +5175,7 @@ ul.menu {
 		}
 
 		#contacts ul {
-			height: 50vh;
+			height: 75vh;
 		}
 
 		#contacts li a.icon {

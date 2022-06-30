@@ -177,10 +177,10 @@ class MyNavbar extends HTMLElement {
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a class="dropbtn">Actualités</a>
+						<a href="/suiviGPS.html" class="dropbtn">Suivi GPS</a>
 						<ul class="dropdown-content">
-							<li><a href="/suiviGPS.html">Suivi GPS</a></li>
-						</ul>							
+							<li></li>
+						</ul>						
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
@@ -422,7 +422,10 @@ document.addEventListener('click',function (event) {
 // navigation partenaires
 var listePartenaires = [
 	"autour-du-bureau.html",
+	"boulangerie-delcour.html",
+	"carette.html",
 	"corep.html",
+	"corp-medecine-lille.html",
 	"credit-agricole.html",
 	"GObyAVA.html",
 	"Hem.html",

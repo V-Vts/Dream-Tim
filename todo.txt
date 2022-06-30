@@ -1,59 +1,18 @@
-- probleme avec safari regarder pour compatibilités de navigateurs
-    - staff -> overflow ? aspect-ratio ?
-    - contrôler tous les .wrapper .inner sur toutes les pages
-    - titre des pages
-    - contacts
-    - corriger slider écoles
-    - gros blanc dans presse à enlever ue quand 1 article par ligne
-    - pouvoir cliquer sur le staff
-- facture OVH
-- vérifier la bannière sur les différents formats
-- ajouter les partenaires
 - mettre en ligne
 - changer police
 
+Tim doit faire :
+- poster vidéo itinéraire sur YTB
+- explications pour les partenaires
+- photo de fond page écoles
 
-- rediscuter des pages reveurs
-- demander à Chloé si elle a fait le montage et demander pour écoles etc
-- mettre en ligne
-- image écoles dans présentation coupé en format rond
-- suivi GPS à tester
-- dreamtim et logo sur image presentation
-- voir pour la navbar et les textes sous les titres de page pour une fois que c'est en ligne
-- écrire derrière sponsors
-- écrire derrière staff + ombre
-- aventurier en mode carte identité
-- sliders automatiques ? ou on peut aller à la slide qu'on veut ? intégrer 
-
-- demander à Tim pour quand il veut le site et le préparer en retirant ce qui n'est pas encore rempi et qui le sera plus tard
-- demander si on garde reveurs ou si ca fait doublons car on peut mettre dans association ou à la limite dans 1000 et 1
-
-- corriger bugs netlify
-- intégrer vidéo présentation itinéraire
-
-plus tard :
-- polaroïde qui se retournent
-- pages par sponsors ?
-
-
-09/06/2022:
-- navbar hover en mode hamurger à désactiver
-- max-width: 1680px titre de page pas visible selon taille écran
-- navbar trop grosse (texte) donc hamburger trop rapide
-- photo de fond -> vélo coupé
-
-to-do :
-- titre sur image
-- dreamTim + logo par dessus image fond
-- changer image de fond pour mettre un titre pour les autres pages cf site template
-- polices cf Achille
+Chloé doit faire
+- image de Tim pour aventurier
+- textes polaroides
+- vérifier tous les textes
 
 plus tard:
+- sliders automatiques ? ou on peut aller à la slide qu'on veut ? intégrer 
 - logo tim en svg
-- publier nouvelle version et montrer à Achille
 - chargement pages
-- taille images
-- vérifier accessibilité sur téléphone en particulier navbar et hover
-- petit symbole pour inviter à scroller
-- rond autour du logo pour mieux le voir ?
 - clean code
