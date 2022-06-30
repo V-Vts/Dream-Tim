@@ -1,10 +1,11 @@
 - probleme avec safari regarder pour compatibilités de navigateurs
     - staff -> overflow ? aspect-ratio ?
-    - partenaires
+    - contrôler tous les .wrapper .inner sur toutes les pages
     - titre des pages
     - contacts
     - corriger slider écoles
-    - gros blanc dans presse
+    - gros blanc dans presse à enlever ue quand 1 article par ligne
+    - pouvoir cliquer sur le staff
 - facture OVH
 - vérifier la bannière sur les différents formats
 - ajouter les partenaires

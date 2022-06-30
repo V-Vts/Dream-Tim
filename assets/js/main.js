@@ -151,7 +151,7 @@ class MyNavbar extends HTMLElement {
 		this.innerHTML = 
 		`
 		<nav class="navbar">
-			<a class="navbar-logo" href="/presentation.html">
+			<a class="navbar-logo" href="/index.html">
 				<img src="/img/velo-logo.png" alt="Logo_DreamTim" class="logo">
 				<img src="/img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
 			</a>
@@ -345,7 +345,10 @@ function moveToPrevSlide(indexSwiper) {
 	updateSlidePosition(indexSwiper);
 }
 
+const cards = document.getElementsByClassName('card');
+
 document.addEventListener('click',function (event) {
+	// sliders
 	if (event.target.matches('button')) {
 		if (event.target.matches('.swiper-button-prev')) {
 			let swiperNb = parseInt(event.target.className.split(' ')[1]);
@@ -354,6 +357,17 @@ document.addEventListener('click',function (event) {
 		if (event.target.matches('.swiper-button-next')) {
 			let swiperNb = parseInt(event.target.className.split(' ')[1]);
 			moveToNextSlide(swiperNb);
+		}
+	}
+	// staff
+	else if (event.target.matches('.polaroide') || event.target.matches('.front') || event.target.matches('.back')) {
+		for (let card of cards) {
+			card.classList.remove('clicked');
+		}
+		event.target.closest('.card').classList.add('clicked');
+	} else {
+		for (let card of cards) {
+			card.classList.remove('clicked');
 		}
 	}
 	console.log(event.target);
