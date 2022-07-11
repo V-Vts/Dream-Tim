@@ -275,9 +275,9 @@ input, select, textarea {
 				color: var(--wrapper-2);
 			}
 
-			article a.special:not(.button):hover {
+			/* article a.special:not(.button):hover {
 				color: var(--wrapper-3);
-			}
+			} */
 
 	strong, b {
 		color: #ffffff;
@@ -3077,6 +3077,8 @@ ul.menu {
 			border-radius: 5px;
 			margin: 1.5em 3em 1.5em 0;
 			width: calc(50% - 1.5em);
+			padding-bottom: 3em;
+			position: relative;
 		}
 
 			.features article:nth-child(2n) {
@@ -3098,8 +3100,30 @@ ul.menu {
 					width: 100%;
 				}
 
+				.features article .image img.lille-actu {
+					padding: 13% 0;
+				}
+
 				.features article .image iframe {
 					height: calc(40vw* 314 / 560);
+				}
+
+				.features article .special {
+					position: absolute;
+					bottom: 0%;
+				}
+
+				.features article .special::before {
+					border: solid 2px var(--darkblue);
+				}
+
+				.features article .special:hover::before {
+					color: white;
+					background-color: var(--darkblue);
+				}
+
+				.features article .special:hover {
+					color: var(--darkblue);
 				}
 
 		@media screen and (max-width: 980px) {
@@ -4835,6 +4859,11 @@ ul.menu {
 		border: solid 2px var(--darkblue);
 	}
 
+	.bandeau-partenaires a.special:hover::before {
+		color: white;
+		background-color: var(--darkblue);
+	}
+
 	@media (max-width: 980px) {
 		.bandeau-partenaires {
 			flex-direction: column;
@@ -5042,6 +5071,11 @@ ul.menu {
 
 	.bandeau-APP a.special::before {
 		border: solid 2px var(--darkblue);
+	}
+
+	.bandeau-APP a.special:hover::before {
+		color: white;
+		background-color: var(--darkblue);
 	}
 
 	@media (max-width: 980px) {

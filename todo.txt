@@ -1,3 +1,5 @@
+- bug envoyé par Tim
+- ajouter presse
 - mettre en ligne
 - changer police
 
