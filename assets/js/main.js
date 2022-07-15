@@ -170,7 +170,7 @@ class MyNavbar extends HTMLElement {
 							<li><a href="/index.html">Présentation</a></li>
 							<li><a href="/aventurier.html">L'aventurier</a></li>
 							<li><a href="/itineraire.html">L'itinéraire</a></li>
-							<li><a href="/association.html">L'association</a></li>
+							<li><a href="/association.html">L'Asso. Petits Princes</a></li>
 							<li><a href="/ecoles.html">Les écoles</a></li>
 							<li><a href="/staff.html">Le staff</a></li>
 						</ul>							
@@ -314,7 +314,7 @@ $(document).click(function(event) {
 	slides.push(swiper.getElementsByClassName('slide'));
 	slidePosition.push(0);
   	totalSlides.push(slides[nbSwipers].length);
-}
+  }
 
   function updateSlidePosition(indexSwiper) {
 	for (let slide of slides[indexSwiper]) {

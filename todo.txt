@@ -1,4 +1,40 @@
-- bug envoyé par Tim
+Retour Tim 13/07:
+- SEO
+
+- crédits de la photo de fond   -> mettre dans le footer ?
+                                -> dans un coin de la photo
+                                -> crédit photo d'accueil : nom prénom
+                                -> voir ce que font les autres sites
+
+- menu mettre L'Asso. Petits Princes
+
+- bug des titres de page -> faire hauteur en fonction de la largeur ou de la hauteur
+    -> quand visité depuis messenger plus depuis son ordi car la largeur doit être différente
+    -> il utilise chrome sur son ordi
+
+- aventurier dans présentation -> mettre même photo que aventurier page
+
+- changer chaine ytb quand tim l'aura créée dans le footer + dans présentation itinéraire
+
+- menu -> actualité -> suivi GPS
+                    -> journal de bord
+        -> je peux faire ça dès maintenant
+
+- menu -> les rêves -> l'impacts positifs du rêves -> reprendre la page impact positif de APP + la liste des reves de la page asso
+                    -> A chacun ses rêves -> les reves des gens rencontrés  -> pour l'instant mettre un décompte
+                                                                            -> même layout que rêves de APP -> metre une image puis redirigé vers le post insta avec la vidéo
+                
+
+        -> page APP -> retirer la liste des rêves -> les mettre dans impact positif
+                    -> ajouter vidéo de Tim ou APP qui explique l'asso
+
+- corriger les posts insta automatiques pour qu'ils fassent tous la meme taille (rogner) car selon la taille de la photo c'est pas tjr aligné
+
+
+
+
+- bug envoyé par Tim pour titres pages
+- attendre pour chargement des pages
 - ajouter presse
 - mettre en ligne
 - changer police
