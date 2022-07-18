@@ -170,7 +170,7 @@ class MyNavbar extends HTMLElement {
 							<li><a href="/index.html">Présentation</a></li>
 							<li><a href="/aventurier.html">L'aventurier</a></li>
 							<li><a href="/itineraire.html">L'itinéraire</a></li>
-							<li><a href="/association-petits-princes.html">L'Asso. Petits Princes</a></li>
+							<li><a href="/association-petits-princes.html">L'Association Petits Princes</a></li>
 							<li><a href="/ecoles.html">Les écoles</a></li>
 							<li><a href="/staff.html">Le staff</a></li>
 						</ul>							

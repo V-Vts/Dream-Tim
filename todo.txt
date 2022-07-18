@@ -1,7 +1,14 @@
 Retour Tim 13/07:
+- staff -> changer taille police du back
+
+- police
+
 - demander à Tim de faire des liens vers le site sur chaine YTB et réseaux sociaux
 
-- changement Tim drive
+- changement Tim drive : aventurier à revoir, impact positif quand Tim a fini
+
+- liens Suivre Tim en direct par GPS, Nous contacter
+
 
 - SEO   -> sitemap
         -> plugin image optim ?
