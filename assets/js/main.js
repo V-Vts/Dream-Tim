@@ -170,23 +170,25 @@ class MyNavbar extends HTMLElement {
 							<li><a href="/index.html">Présentation</a></li>
 							<li><a href="/aventurier.html">L'aventurier</a></li>
 							<li><a href="/itineraire.html">L'itinéraire</a></li>
-							<li><a href="/association.html">L'Asso. Petits Princes</a></li>
+							<li><a href="/association-petits-princes.html">L'Asso. Petits Princes</a></li>
 							<li><a href="/ecoles.html">Les écoles</a></li>
 							<li><a href="/staff.html">Le staff</a></li>
 						</ul>							
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a href="/suiviGPS.html" class="dropbtn">Suivi GPS</a>
+						<a class="dropbtn">Actualités</a>
 						<ul class="dropdown-content">
-							<li></li>
+							<li><a href="/journal-de-bord.html">Journal de bord</a></li>
+							<li><a href="/suivi-gps.html">Suivi GPS</a></li>
 						</ul>						
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a href="/reves.html" class="dropbtn">Rêves</a>
+						<a class="dropbtn">Le Rêve</a>
 						<ul class="dropdown-content">
-							<li></li>
+							<li><a href="/impact-positif-du-reve.html">L'impact positif du rêve</a></li>
+							<li><a href="/a-chacun-ses-reves.html">A chacun ses rêves</a></li>
 						</ul>						
 					</li>
 					<li class="dropdown">
@@ -216,7 +218,7 @@ class MyFooter extends HTMLElement {
 				<li><a href="https://www.instagram.com/dreamtim___/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 				<li><a href="https://www.facebook.com/DREAM-TIM-101018092510498" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 				<li><a href="https://www.linkedin.com/company/dreamtimm/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-				<li><a href="https://www.youtube.com/channel/UChdjiYkner2JQWavSM1i-3A" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+				<li><a href="https://www.youtube.com/channel/UCrkG87koakRA3kCb_rIHhsQ" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
 				<li><a href="mailto:contact.dreamtim@gmail.com" target="_blank" class="icon solid fa-envelope"><span class="label">Mail</span></a></li>
 			</ul>
 			<div class="copyright">

@@ -3794,7 +3794,7 @@ ul.menu {
 			padding-bottom: 10vw;
 		}
 
-		.wrapper.generic, .wrapper.generic h2, .wrapper.generic h3, .wrapper.generic a {
+		.wrapper.generic, .wrapper.generic h2, .wrapper.generic h3, .wrapper.generic a, .wrapper.generic h4 {
 			color: var(--darkblue);
 		}
 
@@ -4672,10 +4672,9 @@ ul.menu {
 		position: absolute;
 		top: 55px;
 		background-color: rgb(240, 240, 240);
-		min-width: 160px;
+		width: 270px;
 		padding: 0;
 		z-index: 1;
-		width: 350%;
 	  }
 	  
 	  .dropdown-content a {
@@ -4692,14 +4691,14 @@ ul.menu {
 		display: block;
 	  }
 
-	  @media (min-width: 1190px) {
+	  @media (min-width: 1208px) {
 		.dropdown:hover .dropdown-content {
 			display: block;
 			box-shadow: 0 1px 2px 0 rgba(0,0,0,0.4);
 		  }
 	  }
 
-	  @media (max-width: 1190px) {
+	  @media (max-width: 1208px) {
 		.navbar {
 			flex-direction: column;
 			align-items: flex-start;
@@ -5242,8 +5241,17 @@ ul.menu {
 		border-color: var(--lightblue);
 	}
 
-	.itineraire iframe {
-		width: 100%;
+	.wrapper>.inner>iframe {
+		width: 80vw;
+		height: calc(80vw * 315 / 560);
+		margin-bottom: 5vw;
+	}
+
+	@media screen and (max-width: 736px) {
+		.wrapper>.inner>iframe {
+			width: 90vw;
+			height: calc(90vw * 315 / 560);
+		}
 	}
 
 /* swiper */
