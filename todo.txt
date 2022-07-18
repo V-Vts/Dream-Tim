@@ -9,7 +9,6 @@ Retour Tim 13/07:
 
 - liens Suivre Tim en direct par GPS, Nous contacter
 
-
 - SEO   -> sitemap
         -> plugin image optim ?
         -> srcset -> y penser pour format mobile pour img fond et autres img grosse cf taille des fichiers
