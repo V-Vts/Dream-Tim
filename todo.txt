@@ -4,8 +4,6 @@ Retour Tim 13/07:
 
 - désindexer pages
 
-- bug titre page impact positif + journal de bord + association petits princes sur chrome mac aurélie
-
 - en savoir plus coupé dans page présentation -> + de marge
 
 - demander à Tim de faire des liens vers le site sur chaine YTB et réseaux sociaux

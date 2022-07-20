@@ -3626,11 +3626,11 @@ ul.menu {
 			font-size: 1em;
 		}
 
-		#banner h2 br {
+		#banner.APP h2 br, #banner.journal h2 br  {
 			display: none;
 		}
 
-		#banner p br {
+		#banner.APP p br, #banner.journal p br {
 			display: none;
 		}
 
