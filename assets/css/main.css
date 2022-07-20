@@ -142,7 +142,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: 'Comic Sans MS', 'Trebuchet MS', 'Verdana', 'Helvetica', sans-serif;
+		font-family: 'Comic Sans MS',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",'Trebuchet MS','Verdana',Arial,sans-serif;
+		/* font-family: 'Comic Sans MS', 'Segoe UI', 'Trebuchet MS', 'Verdana', 'Arial', sans-serif; */
 		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
 		font-size: 1.5rem;
 		font-weight: normal;
@@ -3621,15 +3622,15 @@ ul.menu {
 			color: var(--blanc-fg);
 		}
 
-		#banner h2.APP span {
+		#banner h2 span {
 			font-size: 1em;
 		}
 
-		#banner h2.APP br {
+		#banner h2 br {
 			display: none;
 		}
 
-		#banner p.APP br {
+		#banner p br {
 			display: none;
 		}
 
@@ -3662,6 +3663,7 @@ ul.menu {
 				height: 300px;
 			}
 		}
+
 
 		@media screen and (max-width: 736px) {
 
@@ -3713,6 +3715,14 @@ ul.menu {
 
 		}
 
+		@media screen and (max-width: 520px) {
+			
+			#banner.journal h2 {
+				font-size: 2.5em;
+			}
+
+		}
+
 		@media screen and (max-width: 480px) {
 			
 			#banner h2.APP {
@@ -3724,6 +3734,22 @@ ul.menu {
 			}	
 
 			#banner p.APP span {
+				display: none;
+			}
+
+			#banner.journal .inner {
+				padding-top: 2em;
+			}
+
+			#banner.journal {
+				height: 280px;
+			}
+
+			#banner.journal h2 br {
+				display: block;
+			}	
+
+			#banner.journal h2 span {
 				display: none;
 			}
 		}
@@ -4854,7 +4880,8 @@ ul.menu {
 
 	.bandeau-partenaires .img-bandeau {
 		width: 38%;
-		aspect-ratio: 1 / 1;
+		height: calc(0.38 * 80vw);
+		/* aspect-ratio: 1 / 1; */
 		padding: 3%;
 		background-color: white;
 		box-shadow: 0 0 3px 0 rgba(0,0,0,0.30);
@@ -4896,6 +4923,15 @@ ul.menu {
 	
 		.bandeau-partenaires .img-bandeau {
 			width: 60%;
+			height: calc(0.6 * 80vw);
+			margin: 7vw 0 7vw 0;
+		}
+	}
+
+	@media (max-width: 736px) {
+		.bandeau-partenaires .img-bandeau {
+			width: 60%;
+			height: calc(0.6 * 90vw);
 			margin: 7vw 0 7vw 0;
 		}
 	}
@@ -5032,6 +5068,15 @@ ul.menu {
 			width: 90vw;
 			height: calc(90vw * 14 / 12);
 		}
+
+		.back-content h2 {
+			font-size: 2em;
+		}
+
+		.back-content p {
+			font-size: 1.5em;
+		}
+
 	}
 
 	/* flipping cards */
@@ -5068,7 +5113,8 @@ ul.menu {
 	width: 100%;
   }
 
-  .back-content .identite {
+  .back-content .identite p {
+	text-align: center;
 	margin-bottom: 1.5em;
   }
 
@@ -5081,7 +5127,7 @@ ul.menu {
   }
 
   .back-content .presentation span{
-	text-decoration: underline;
+	font-weight: bold;
   }
   
   .card:hover > .front{
@@ -5288,7 +5334,7 @@ ul.menu {
 
 	}
 	
-	img.itineraire-map {
+	img.img-middle {
 		width: 60%;
 		margin: 0 20% 4vw 20%;
 		border: solid;
@@ -5304,7 +5350,7 @@ ul.menu {
 	}
 
 	@media screen and (max-width: 736px) {
-		img.itineraire-map {
+		img.img-middle {
 			width: 80%;
 			margin: 0 10% 4vw 10%;
 			border-width: 7px;
@@ -5567,8 +5613,7 @@ ul.menu {
 
 .bandeau-ecoles .swiper .content {
 	width: 60%;
-	height: auto;
-	aspect-ratio: 1/1;
+	height: calc(0.6 * 0.47 * 90vw);
 	margin: 0;
 }
 
@@ -5599,11 +5644,16 @@ ul.menu {
 
 	.bandeau-ecoles .explications {
 		width: 100%;
-		margin-top: 10vw;
 	}
 	
 	.bandeau-ecoles .swiper {
 		width: 100%;
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+	}
+
+	.bandeau-ecoles .swiper .content {
+		height: calc(0.6 * 90vw);
 	}
 }
 

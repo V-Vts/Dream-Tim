@@ -187,7 +187,7 @@ class MyNavbar extends HTMLElement {
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
 						<a class="dropbtn">Le Rêve</a>
 						<ul class="dropdown-content">
-							<li><a href="/impact-positif-du-reve.html">L'impact positif du rêve</a></li>
+							<li><a href="/impact-positif-du-reve.html">Impact positif du rêve</a></li>
 							<li><a href="/a-chacun-ses-reves.html">A chacun ses rêves</a></li>
 						</ul>						
 					</li>
@@ -200,7 +200,7 @@ class MyNavbar extends HTMLElement {
 							<li><a href="/contacts.html">Contacts</a></li>
 						</ul>							
 					</li>
-					<li><a class="don" href="https://www.petitsprinces.com/" target="_blank">Faire un don</a></li>
+					<li><a class="don" href="https://creer-ma-collecte.petitsprinces.com/projects/dream-tim" target="_blank">Faire un don</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -282,7 +282,10 @@ $(document).click(function(event) {
 		for(let j=0; j<dropdown.length; j++){
 			dropdownContent[j].classList.remove('active');
 		}
-	}        
+	} 
+	if(target.closest('.navbar') == null) {
+		navbarLinks.classList.remove('active');
+	}       
   });
 
   // compte à rebours

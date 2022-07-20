@@ -1,14 +1,10 @@
 Retour Tim 13/07:
 
-- text-align, bold
+- meta description
 
-- revoir les polices et bold pour staff derrière cartes
+- désindexer pages
 
 - bug titre page impact positif + journal de bord + association petits princes sur chrome mac aurélie
-
-- en mode téléphone, quand on clique à côté quand menu ouvert alors il se referme
-
-- staff -> changer taille police du back
 
 - en savoir plus coupé dans page présentation -> + de marge
 
