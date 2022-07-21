@@ -155,10 +155,10 @@ class MyNavbar extends HTMLElement {
 				<img src="/img/velo-logo-small.png" alt="Logo_DreamTim" class="logo">
 				<img src="/img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
 			</a>
-			<a style="cursor: pointer;" class="toggle-button">
-			<span class="bar"></span>
-			<span class="bar"></span>
-			<span class="bar"></span>
+			<a class="toggle-button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
 			</a>
 			<div class="navbar-links">
 				<ul class="shown">
@@ -185,7 +185,7 @@ class MyNavbar extends HTMLElement {
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a class="dropbtn">Le Rêve</a>
+						<button class="dropbtn">Le Rêve</button>
 						<ul class="dropdown-content">
 							<li><a href="/impact-positif-du-reve.html">Impact positif du rêve</a></li>
 							<li><a href="/a-chacun-ses-reves.html">A chacun ses rêves</a></li>
@@ -193,7 +193,7 @@ class MyNavbar extends HTMLElement {
 					</li>
 					<li class="dropdown">
 						<!-- <span onclick="location.href='';" style="cursor: pointer;" href="" class="test"></span> -->
-						<a class="dropbtn">A propos</a>
+						<button class="dropbtn">A propos</button>
 						<ul class="dropdown-content">
 							<li><a href="/partenaires.html">Partenaires</a></li>
 							<li><a href="/presse.html">Presse</a></li>
@@ -257,12 +257,13 @@ for(let i=0; i<dropdown.length; i++){
 
 	var windowWidth = window.innerWidth;
 	console.log(windowWidth,'window width');
-	if(windowWidth > 1280) {
+	if(windowWidth > 1105) {
 		dropdown[i].addEventListener("mouseover", function() {
 			for(let j=0; j<dropdown.length; j++){
 				if(i!=j){
 					dropdownContent[j].classList.remove('active');
 				}
+				console.log('test');
 			}
 		})
 	}

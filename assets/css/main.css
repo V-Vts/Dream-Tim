@@ -2919,7 +2919,7 @@ ul.menu {
 
 /* Button */
 
-	input[type="submit"],
+	/* input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	button,
@@ -2939,7 +2939,7 @@ ul.menu {
 		color: var(--blue) !important;
 		cursor: pointer;
 		display: inline-block;
-		/* font-family: Raleway, Helvetica, sans-serif; */
+		/* font-family: Raleway, Helvetica, sans-serif; *//*
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.75em;
@@ -3056,7 +3056,7 @@ ul.menu {
 				padding: 0;
 			}
 
-		}
+		} */
 
 /* Features */
 
@@ -4572,7 +4572,10 @@ ul.menu {
 		align-items: center;
 	  }
 	  
-	  .navbar-links ul li a {
+	  .navbar-links ul li a, .navbar-links ul li button {
+		background-color: transparent;
+		border: none;
+		font-family: 'Comic Sans MS',-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",'Trebuchet MS','Verdana',Arial,sans-serif;
 		color: var(--darkblue);
 		font-weight: normal;
 		font-size: 1.1rem;
@@ -4584,7 +4587,7 @@ ul.menu {
 		cursor: pointer;
 	  }
 
-	  .navbar-links ul li.dropdown > a {
+	  .navbar-links ul li.dropdown > a, .navbar-links ul li.dropdown > button {
 		margin: 10px 0;
 	  }
 
@@ -4605,7 +4608,7 @@ ul.menu {
 		color: var(--blanc-fg);
 	  }
 	  
-	  .navbar-links ul li a:hover {
+	  .navbar-links ul li a:hover, .navbar-links ul li button:hover {
 		color: var(--darkblue);
 	  }
 
@@ -4613,7 +4616,7 @@ ul.menu {
 		width: 0%;
 	  }
 	  
-	  .navbar-links ul.shown > li > a::after {
+	  .navbar-links ul.shown > li > a::after, .navbar-links ul.shown > li > button::after {
 		content: '';
 		background-color: var(--darkblue);
 		height: 6px;
@@ -4625,15 +4628,18 @@ ul.menu {
 		transition: all ease-in-out 250ms;
 	  }
 	  
-	  .navbar-links ul.shown li:hover a::after {
+	  .navbar-links ul.shown li:hover a::after, .navbar-links ul.shown li:hover button::after {
 		width: 100%;
 	  }
 
-	  .navbar-links ul.shown li:hover a.don::after {
+	  .navbar-links ul.shown li:hover a.don::after, .navbar-links ul.shown li:hover button.don::after {
 		width: 0%;
 	  }
 	  
 	  .toggle-button {
+		cursor: pointer;
+		background-color: transparent;
+		border: none;
 		width: 36px;
 		height: 30px;
 		/*positionnement par rapport à navbar*/
@@ -4731,7 +4737,6 @@ ul.menu {
 	  }
 	  
 	  .dropdown-content a {
-		color: black;
 		padding: 7px 0;
 		text-decoration: none;
 		display: block;
@@ -4791,11 +4796,11 @@ ul.menu {
 			position: static;
 		}
 
-		.navbar-links ul.shown li.dropdown > a:hover {
+		.navbar-links ul.shown li.dropdown > a:hover, .navbar-links ul.shown li.dropdown > button:hover {
 			color: #041633;
 		}
 
-		.navbar-links ul.shown li a::after {
+		.navbar-links ul.shown li a::after, .navbar-links ul.shown li button::after {
 			display: none;
 		}
 	}
