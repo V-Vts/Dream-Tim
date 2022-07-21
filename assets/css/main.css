@@ -3490,10 +3490,16 @@ ul.menu {
 	}
 
 	#banner.banner-presentation {
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 0)), url("../../img/route-vélo.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 0)), url("../../img/route-velo.jpg");
 		display: flex;
 		justify-content: center;
 		align-items: center;
+	}
+
+	@media screen and (max-width: 450px) {
+		#banner.banner-presentation {
+			background-image: linear-gradient(to top, rgba(46, 49, 65, 0), rgba(46, 49, 65, 0)), url("../../img/route-velo-mobile.jpg");
+		}
 	}
 
 	#banner.banner-presentation p {

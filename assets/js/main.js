@@ -152,7 +152,7 @@ class MyNavbar extends HTMLElement {
 		`
 		<nav class="navbar">
 			<a class="navbar-logo" href="/index.html">
-				<img src="/img/velo-logo.png" alt="Logo_DreamTim" class="logo">
+				<img src="/img/velo-logo-small.png" alt="Logo_DreamTim" class="logo">
 				<img src="/img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
 			</a>
 			<a style="cursor: pointer;" class="toggle-button">
@@ -447,8 +447,10 @@ var nbPartenaires = listePartenaires.length;
 console.log(listePartenaires);
 
 var pagePartenaire = location.pathname.split("/").slice(-2,-1);
+console.log(pagePartenaire);
 if (pagePartenaire == "partenaires"){
 	partenaire = location.pathname.split("/").slice(-1)[0];
+	console.log(partenaire);
 	index = listePartenaires.indexOf(partenaire);
 	previous = listePartenaires[(index-1+nbPartenaires) % nbPartenaires];
 	next = listePartenaires[(index+1+nbPartenaires) % nbPartenaires];
