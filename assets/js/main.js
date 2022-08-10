@@ -291,7 +291,7 @@ $(document).click(function(event) {
 
   // compte à rebours
   if (document.getElementById("decompte") != null) {
-	var deadline = new Date("Sep 10, 2022 12:00:00").getTime();
+	var deadline = new Date("Sep 10, 2022 10:00:00").getTime();
 	var x = setInterval(function() {
 	  var now = new Date().getTime();
 	  var t = deadline - now;
