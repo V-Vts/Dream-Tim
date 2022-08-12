@@ -367,10 +367,16 @@ document.addEventListener('click',function (event) {
 	}
 	// staff
 	else if (event.target.matches('.polaroide') || event.target.matches('.front') || event.target.matches('.back')) {
+		let clicked = false
+		if (event.target.closest('.card').classList.contains('clicked')){
+			clicked = true;
+		}
 		for (let card of cards) {
 			card.classList.remove('clicked');
 		}
-		event.target.closest('.card').classList.add('clicked');
+		if (!clicked){
+			event.target.closest('.card').classList.add('clicked');
+		}
 	} else {
 		for (let card of cards) {
 			card.classList.remove('clicked');
