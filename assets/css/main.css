@@ -3487,6 +3487,7 @@ ul.menu {
 		background-position: center, center;
 		height: 90vh;
 		margin-bottom: -4em;
+		position: relative;
 	}
 
 	#banner.banner-presentation {
@@ -3520,6 +3521,16 @@ ul.menu {
 		background-color: rgb(147, 196, 235, 0.6);
 		padding: 2vw;
 		margin-bottom: 10vw;
+	}
+
+	#banner.banner-presentation .credentials {
+		background-color: rgb(147, 196, 235, 0.6);
+		font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",'Trebuchet MS','Verdana',Arial,sans-serif;
+		font-size: 0.6em;
+		padding: 0 2em 3em 1em;
+		position: absolute;
+		bottom: -1em;
+		left: 0;
 	}
 
 	#banner.banner-partenaires {

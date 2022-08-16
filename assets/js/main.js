@@ -434,22 +434,23 @@ document.addEventListener('click',function (event) {
 // navigation partenaires
 var listePartenaires = [
 	"autour-du-bureau.html",
-	"boulangerie-delcour.html",
-	"carette.html",
-	"corep.html",
-	"corp-medecine-lille.html",
-	"credit-agricole.html",
-	"GObyAVA.html",
-	"Hem.html",
-	"Jonathan-Thevenoud.html",
-	"les-miraculeux.html",
-	"lions-clubs.html",
-	"lissac-opticien.html",
-	"mistertee.html",
-	"respire.html",
-	"SCH.html",
 	"ULille.html",
+	"respire.html",
+	"Jonathan-Thevenoud.html",
+	"GObyAVA.html",
+	"corep.html",
+	"mistertee.html",
+	"Hem.html",
+	"SCH.html",
+	"lions-clubs.html",
+	"credit-agricole.html",
+	"carette.html",
+	"lissac-opticien.html",
+	"corp-medecine-lille.html",
+	"les-miraculeux.html",
+	"boulangerie-delcour.html"
 ];
+
 var nbPartenaires = listePartenaires.length;
 console.log(listePartenaires);
 

@@ -1,4 +1,11 @@
 Retour Tim 13/07:
+- crédits photo -> bien positionner + lien vers insta + demander validation
+- photo fond vélo en téléphone trop floue
+- optimiser images avec webp et source pour SEO
+- textes partenaires voir selon messages avec Tim
+- demander liens depuis chaines ytb, cagnotte, posts-insta
+
+
 - button tag
 
 - meta description
@@ -9,9 +16,7 @@ Retour Tim 13/07:
 
 - demander à Tim de faire des liens vers le site sur chaine YTB et réseaux sociaux
 
-- SEO   -> sitemap
-        -> plugin image optim ?
-        -> srcset -> y penser pour format mobile pour img fond et autres img grosse cf taille des fichiers
+- SEO   -> srcset -> y penser pour format mobile pour img fond et autres img grosse cf taille des fichiers
 
 - crédits de la photo de fond   -> mettre dans le footer ?
                                 -> dans un coin de la photo
