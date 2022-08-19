@@ -1,7 +1,6 @@
 Retour Tim 13/07:
-- crédits photo -> bien positionner + lien vers insta + demander validation
-- photo fond vélo en téléphone trop floue
-- optimiser images avec webp et source pour SEO
+- videos on insta feed
+- optimiser images avec webp et source pour SEO ou compresser
 - textes partenaires voir selon messages avec Tim
 - demander liens depuis chaines ytb, cagnotte, posts-insta
 

@@ -155,7 +155,7 @@ class MyNavbar extends HTMLElement {
 				<img src="/img/velo-logo-small.png" alt="Logo_DreamTim" class="logo">
 				<img src="/img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
 			</a>
-			<button class="toggle-button">
+			<button class="toggle-button" name="menu">
 				<span class="bar"></span>
 				<span class="bar"></span>
 				<span class="bar"></span>
@@ -448,7 +448,8 @@ var listePartenaires = [
 	"lissac-opticien.html",
 	"corp-medecine-lille.html",
 	"les-miraculeux.html",
-	"boulangerie-delcour.html"
+	"boulangerie-delcour.html",
+	"ptit-louis.html"
 ];
 
 var nbPartenaires = listePartenaires.length;
