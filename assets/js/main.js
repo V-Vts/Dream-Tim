@@ -144,6 +144,11 @@
 
 })(jQuery);
 
+/* <button class="toggle-button" aria-label="menu">
+	<span class="bar"></span>
+	<span class="bar"></span>
+	<span class="bar"></span>
+</button> */
 
 // navbar
 class MyNavbar extends HTMLElement {
@@ -155,11 +160,11 @@ class MyNavbar extends HTMLElement {
 				<img src="/img/velo-logo-small.png" alt="Logo_DreamTim" class="logo">
 				<img src="/img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
 			</a>
-			<button class="toggle-button" aria-label="menu">
+			<a style="cursor: pointer;" class="toggle-button" aria-label="menu">
 				<span class="bar"></span>
 				<span class="bar"></span>
 				<span class="bar"></span>
-			</button>
+			</a>
 			<div class="navbar-links">
 				<ul class="shown">
 					<li class="dropdown">
