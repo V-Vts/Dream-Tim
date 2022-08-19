@@ -155,7 +155,7 @@ class MyNavbar extends HTMLElement {
 				<img src="/img/velo-logo-small.png" alt="Logo_DreamTim" class="logo">
 				<img src="/img/texte-Dream-Tim.png" alt="Logo_DreamTim" class="text-logo">
 			</a>
-			<button class="toggle-button" name="menu">
+			<button class="toggle-button" aria-label="menu">
 				<span class="bar"></span>
 				<span class="bar"></span>
 				<span class="bar"></span>
