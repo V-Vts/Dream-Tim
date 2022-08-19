@@ -1,4 +1,8 @@
 Retour Tim 13/07:
+- alt pour images
+- resize image aventurier
+- envoyer sitemap régulièrement : https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=fr
+- bug hamburger -> tester avec a et pas button
 - videos on insta feed
 - optimiser images avec webp et source pour SEO ou compresser
 - textes partenaires voir selon messages avec Tim
