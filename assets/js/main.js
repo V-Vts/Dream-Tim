@@ -185,7 +185,7 @@ class MyNavbar extends HTMLElement {
 						<a class="dropbtn">Actualités</a>
 						<ul class="dropdown-content">
 							<li><a href="/journal-de-bord.html">Journal de bord</a></li>
-							<li><a href="/suivi-gps.html">Suivi GPS</a></li>
+							<li><a href="https://www.polarsteps.com/TimotheeGuaquiere/5691689-dream-tim" target="_blank">Suivi GPS</a></li>
 						</ul>						
 					</li>
 					<li class="dropdown">
@@ -296,10 +296,10 @@ $(document).click(function(event) {
 
   // compte à rebours
   if (document.getElementById("decompte") != null) {
-	var deadline = new Date("Sep 10, 2022 10:00:00").getTime();
+	var start = new Date("Sep 10, 2022 10:00:00").getTime();
 	var x = setInterval(function() {
 	  var now = new Date().getTime();
-	  var t = deadline - now;
+	  var t = now - start;
 	  var days = Math.floor(t / (1000 * 60 * 60 * 24));
 	  var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
 	  var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));

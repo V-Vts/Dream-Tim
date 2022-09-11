@@ -1,6 +1,4 @@
 Retour Tim 13/07:
-- alt pour images
-- resize image aventurier
 - envoyer sitemap régulièrement : https://developers.google.com/search/docs/advanced/sitemaps/build-sitemap?hl=fr
 - bug hamburger -> tester avec a et pas button
 - videos on insta feed
@@ -9,35 +7,16 @@ Retour Tim 13/07:
 - demander liens depuis chaines ytb, cagnotte, posts-insta
 
 
-- button tag
-
 - meta description
 
 - désindexer pages
 
 - en savoir plus coupé dans page présentation -> + de marge
 
-- demander à Tim de faire des liens vers le site sur chaine YTB et réseaux sociaux
-
-- SEO   -> srcset -> y penser pour format mobile pour img fond et autres img grosse cf taille des fichiers
-
-- crédits de la photo de fond   -> mettre dans le footer ?
-                                -> dans un coin de la photo
-                                -> crédit photo d'accueil : nom prénom
-                                -> voir ce que font les autres sites
-
-
 
 A faire plus tard :
 - A chacun ses rêves -> les reves des gens rencontrés -> même layout que rêves de APP -> metre une image puis redirigé vers le post insta avec la vidéo
 - corriger les posts insta automatiques pour qu'ils fassent tous la meme taille (rogner) car selon la taille de la photo c'est pas tjr aligné
 - attendre pour chargement des pages
-- changer police
 - sliders automatiques ? ou on peut aller à la slide qu'on veut ? intégrer 
 - clean code
-
-
-Chloé doit faire
-- image de Tim pour aventurier
-- textes polaroides
-- vérifier tous les textes
