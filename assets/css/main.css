@@ -5740,4 +5740,10 @@ ul.menu {
 		line-height: 2em;
 	}
 }
+
+/* semaine */
+
+.inner.semaine p {
+	margin: 0 0 1em 0;
+}
   
